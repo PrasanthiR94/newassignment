@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+    url('../fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+    url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+    url('../fonts/Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+    url('../fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+} 
+body {
+    background: #f1f1f1;
+    font-family: 'Montserrat';
+} 
+button:focus{
+    outline:0;
+}
+input[type="text"]:focus, textarea:focus{
+    outline:0;
+}
+.body-wrap {
+    position: relative;
+} 
+section.banner-wrap img {
+    width: 100%;
+} 
+img.mob-banner {
+    display: none;
+}
+section.main-content {
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+} 
+header h1 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 53px;
+    font-weight: 800;
+} 
+nav.main-menu ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 22px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 1.5s;
+    font-weight: 600;
+} 
+nav.main-menu ul {
+    margin: 0;
+    padding: 0;
+} 
+nav.main-menu ul li.active {
+    background: #fff;
+    color: #000;
+    position: relative;
+} 
+nav.main-menu ul li.active::before {
+    position: absolute;
+    content: "";
+    bottom: 13px;
+    background: #ffe50096;
+    width: 85%;
+    height: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+}
+nav.main-menu ul li:hover {
+    background: #fff;
+    color: #000;
+    transition: 1.5s;
+}
+section.main main {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    margin-right: 2%;
+    padding: 25px;
+} 
+.main aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    background: #fff;
+} 
+section.main main article h3 {
+    padding: 8px 0 0 0;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 400;
+} 
+section.main main article b {
+    color: #f02753;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 13px;
+} 
+section.main main article p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 26px;
+} 
+section.icon-section {
+    background: #fff069;
+    color: #000;
+} 
+section.icon-section ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+} 
+section.icon-section ul li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 16px 14px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+    border: 1px solid #fff069;
+}
+section.icon-section ul li:hover {
+    transition: 0.5s;
+    background: #fff;
+    border: 1px solid #fff069;
+}
+section.icon-section ul li span {
+    width: 100%;
+    display: block;
+} 
+section.icon-section ul li  i {
+    height: 20px;
+    font-weight: unset;
+}
+section.details table tr {
+    border-bottom: 1px solid #cccccc36;
+}
+
+section.details table td {
+    padding: 15px 14px;
+    /* width: 38%; */
+    font-size: 12px;
+} 
+section.details {
+    margin-top: 20px;
+} 
+section.details table tr td:nth-child(odd) {
+    font-weight: 600;
+    font-size: 15px;
+    width: 40%;
+} 
+section.details table {
+    width: 100%;
+} 
+aside h3 {
+    padding: 10px;
+    font-size: 24px;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: 400;
+} 
+form fieldset p {
+    position: relative;
+    margin-bottom: 24px;
+} 
+label.floatingLbl{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    pointer-events:none;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+    left: 0;
+    top: 5px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+form fieldset p label i {
+    font-size: 14px;
+    margin-right: 8px;
+    font-weight: unset;
+}
+form fieldset p .inputClass{
+    border: 0;
+    border-bottom: 2px solid #000;
+    width: 100%;
+} 
+.inputClass:focus   {
+   outline:none; 
+} 
+.inputClass:focus ~ label.floatingLbl {
+  top:-18px;
+  font-size:11px; 
+}
+form fieldset {
+    width: 80%;
+    margin: auto;
+} 
+form fieldset p textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #f3f3f3b8;
+    min-height: 100px;
+} 
+.main aside nav a {
+    color: #000;
+    text-decoration: none;
+    width: 80%;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.main aside nav a:hover {
+    color: #f22854;
+    transition: 0.5s;
+}
+.main aside nav a span {
+    color: #f22854;
+    margin-left: 10px;
+    font-weight: 600;
+} 
+button.common-btn {
+    width: 100%;
+    margin-top: 20px;
+    border: 0;
+    background: #000;
+    color: #fff;
+    padding: 17px 0;
+    font-size: 12px;
+} 
+.right-Btn-wrap {
+    position: fixed;
+    right: -1px;
+    width: 154px;
+} 
+button.right-button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 12px;
+    transition: 0.5s;
+    padding: 10px 0;
+    border: 1px solid #f22854;
+    color: #fff;
+    background: #f22854;
+} 
+button.color-white {
+    color: #000;
+    background: white;
+    border: 1px solid #ffffff;
+} 
+button.right-button:hover {
+    background: #ffffff;
+    transition: 0.5s;
+    border: 1px solid #f22854;
+    color: #000;
+} 
+button.color-white:hover {
+    background: #f22854;
+    transition: 0.5s;
+    border: 1px solid #f22854;
+    color: #fff;
+}
+button.right-button i {
+    margin-right: 6px;
+}
